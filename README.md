@@ -2,6 +2,8 @@
 
 A control-gap analyzer. Point it at an organization's written security policies and it reports which ISO 27001:2022 controls they address, which they only partially address, and which they miss entirely — with a rationale and cited evidence for each verdict.
 
+![Lacuna results](screenshot.png)
+
 ## The problem it solves
 
 Gap analysis is a standard GRC task: an organization has a pile of policies, a framework says "you must address X, Y, Z," and someone has to read everything and find what is missing. By hand it is slow and inconsistent. With keyword search it is wrong — a policy that says "staff verify their identity with a second factor" clearly addresses the authentication control, but the word "authentication" never appears, so keyword matching calls it a gap.
