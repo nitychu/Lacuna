@@ -39,7 +39,7 @@ def analyze(policy_text, controls_path="controls_iso27001.json"):
 
     results = []
     for ctrl in controls:
-        hits = retrieve(ctrl["text"], chunks, chunk_vecs, top_k=3)
+        hits = retrieve(ctrl["text"], chunks, chunk_vecs)
         excerpts = "\n".join("- " + h["chunk"] for h in hits) or "(none)"
         prompt = JUDGE_PROMPT.format(
             control_id=ctrl["id"], control_title=ctrl["title"],
