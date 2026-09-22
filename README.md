@@ -3,6 +3,7 @@
 A control-gap analyzer. Point it at an organization's written security policies and it reports which ISO 27001:2022 controls they address, which they only partially address, and which they miss entirely — with a rationale and cited evidence for each verdict.
 
 ![screenshot](screenshot.png)
+*Tool output on RTI's May 2026 policy. The first verdict shown, A.5.1, is one of the three that disagree with my manual review — see below.*
 
 ## The problem it solves
 
