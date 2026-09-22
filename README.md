@@ -31,6 +31,7 @@ Three changes fixed most of it:
 
 Agreement went to **13 of 16**. `evaluate.py` reproduces this against the answer key.
 To reproduce: download the policy from RTI's site, save the extracted text as `rti_policy.txt` in the repo root (it's gitignored), and run `python evaluate.py`. Add `old` to score the original engine.
+The full written assessment of the RTI policy, with findings, themes, limitations, and recommendations, is in [ASSESSMENT.md](ASSESSMENT.md).
 
 The three remaining misses are the honest limits:
 
