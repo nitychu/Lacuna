@@ -2,3 +2,5 @@ venv/
 __pycache__/
 *.pyc
 .env
+rti_policy.pdf
+rti_policy.txt
